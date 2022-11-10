@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Etsy Title Verification
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 77.966 s <<< FAILURE! - in Etsy Title Verification
+Etsy Title Verification.Etsy Search Functionality Title Verification (without parameterization)  Time elapsed: 28.784 s  <<< FAILURE!
+org.junit.ComparisonFailure: Title verification is failed! expected:<Wooden [Spoon]> but was:<Wooden [spoon - Etsy]>
+
+Etsy Title Verification.Etsy Search Functionality Title Verification (with parameterization)  Time elapsed: 32.25 s  <<< FAILURE!
+org.junit.ComparisonFailure: Title verification is failed! expected:<Wooden [Spoon]> but was:<Wooden [spoon - Etsy]>
+
